@@ -21,14 +21,5 @@ public class Location {
         this.zipCode = zipCode;
         this.data = data;
     }
-    
-
-    @Override
-    public String toString() {
-        return String.format(
-                "Information[id=%d, zipCode='%s', data='%s']",
-                id, zipCode, data);
-    }
-
 }
 
